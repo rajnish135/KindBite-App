@@ -2,7 +2,9 @@
 "Kindness tastes better when shared."
 
 ->KindBite is a web platform that connects food donors with those in need to reduce food waste and fight hunger.
+
 ->Donors can easily share food details, images, and location, while receivers can browse and collect nearby donations.
+
 ->Built with a clean UI and smart backend, KindBite makes food sharing fast, simple, and impactful.         
 
 
@@ -87,10 +89,15 @@ npm install
 ### 3. Create `.env` file
 
 JWT_SECRET=your_jwt_secret_key
+
 MONGODB_URL=your_mongodb_connection_string
+
 GMAIL_USER=your_verified_email@gmail.com
+
 GMAIL_PASS=your_gmail_app_password
+
 ADMIN_EMAIL=admin_email@example.com
+
 ADMIN_PASS=your_admin_password
 
 
@@ -129,6 +136,7 @@ The app will run on `http://localhost:5173`.
 
 ## 5. Image Uploads
 ->Images are temporarily stored in the uploads/ folder using multer middleware.
+
 ->After that, the images are uploaded to Cloudinary, a cloud-based image hosting service, for permanent storage and access.
 
 
